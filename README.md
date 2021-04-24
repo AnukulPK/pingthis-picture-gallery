@@ -1,3 +1,6 @@
+This project is using the latest version of React i.e. version 17.
+The application should run seamelssly on all platforms and is mobile responsive.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
