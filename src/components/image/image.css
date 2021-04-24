@@ -1,11 +1,13 @@
 .individual-image {
   width: 30%;
+  height: 40%;
   margin: 0.5%;
 }
 
 @media only screen and (max-width: 900px) {
   .individual-image {
     width: 100%;
+    height: 16%;
     margin: 0.5%;
   }
 }

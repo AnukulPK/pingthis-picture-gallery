@@ -8,6 +8,7 @@ function App() {
     <div className="main-content">
       <Header />
       <HeaderImage />
+      <h3>Image Gallery</h3>
       <Gallery />
     </div>
   );

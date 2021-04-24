@@ -14,6 +14,7 @@ function Image({ images, loading }) {
             key={image.id}
             src={image.download_url}
             className="individual-image"
+            alt={image.author}
           />
         );
       })}

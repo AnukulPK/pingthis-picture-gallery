@@ -5,10 +5,20 @@
   text-align: center;
 }
 
+.pagination-container {
+  margin: auto;
+  width: 10%;
+}
+
 @media only screen and (max-width: 900px) {
   .gallery-container {
     display: grid;
     grid-template-columns: 100%;
     text-align: center;
+  }
+
+  .pagination-container {
+    margin: auto;
+    width: 70%;
   }
 }
