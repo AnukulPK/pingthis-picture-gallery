@@ -14,7 +14,10 @@ function Pagination({ imagesPerPage, totalImages, paginate }) {
           return (
             <li key={number} className="page-item">
               <a
-                onClick={() => paginate(number)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  paginate(number);
+                }}
                 href="!#"
                 className="page-link"
               >
