@@ -1,0 +1,11 @@
+.individual-image {
+  width: 30%;
+  margin: 0.5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .individual-image {
+    width: 100%;
+    margin: 0.5%;
+  }
+}
